@@ -63,7 +63,7 @@ public class Tabeller {
 	// f)
 	public static int[] reverser(int[] tabell) {
 
-		
+        
 
 	}
 
