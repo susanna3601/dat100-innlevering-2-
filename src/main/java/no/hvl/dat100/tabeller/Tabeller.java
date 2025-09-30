@@ -26,6 +26,8 @@ public class Tabeller {
     }
 
 
+
+
 	// c)
 	public static int summer(int[] tabell) {
 
