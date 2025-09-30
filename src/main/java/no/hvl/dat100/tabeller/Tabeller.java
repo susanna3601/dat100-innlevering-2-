@@ -14,14 +14,14 @@ public class Tabeller {
 	// b)
 
     public static String tilStreng(int[] tabell) {
-        String s = "\"[";
+        String s = "[";
         for (int i = 0; i < tabell.length; i++) {
             s += tabell[i];
             if (i < tabell.length - 1) {
                 s += ",";
             }
         }
-        s += "]\"";
+        s += "]";
         return s;
     }
 
@@ -67,9 +67,9 @@ public class Tabeller {
 
     int [] ny  = new int[tabell.length];
     for (int i = 0; i < tabell.length; i++) {
-        ny[i] = tabell[i];
+        ny[i] = tabell[tabell.lenght -1 - i];
     }
-
+    return ny;
 	}
 
 	// g)
