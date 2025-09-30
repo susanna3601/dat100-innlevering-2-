@@ -12,10 +12,8 @@ public class Matriser {
 	// b)
 	public static String tilStreng(int[][] matrise) {
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden tilStreng ikke implementert");
-		
-	}
+
+    }
 
 	// c)
 	public static int[][] skaler(int tall, int[][] matrise) {
@@ -27,7 +25,6 @@ public class Matriser {
 
 	// d)
 	public static boolean erLik(int[][] a, int[][] b) {
-
 
 		
 	}
