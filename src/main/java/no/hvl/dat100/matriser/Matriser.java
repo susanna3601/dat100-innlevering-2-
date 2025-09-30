@@ -28,25 +28,8 @@ public class Matriser {
 	// d)
 	public static boolean erLik(int[][] a, int[][] b) {
 
-		// TODO
-		throw new UnsupportedOperationException("Metoden erLik ikke implementert");
+
 		
 	}
-	
-	// e)
-	public static int[][] speile(int[][] matrise) {
 
-		// TODO
-
-		throw new UnsupportedOperationException("Metoden speile ikke implementert");
-	
-	}
-
-	// f)
-	public static int[][] multipliser(int[][] a, int[][] b) {
-
-		// TODO
-		throw new UnsupportedOperationException("Metoden multipliser ikke implementert");
-	
-	}
 }
