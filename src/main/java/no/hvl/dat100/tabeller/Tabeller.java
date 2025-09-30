@@ -14,18 +14,16 @@ public class Tabeller {
 	// b)
 
     public static String tilStreng(int[] tabell) {
-        String s = "[";
+        String s = "\"[";
         for (int i = 0; i < tabell.length; i++) {
             s += tabell[i];
             if (i < tabell.length - 1) {
                 s += ",";
             }
         }
-        s += "]";
+        s += "]\"";
         return s;
     }
-
-
 
 
 	// c)
@@ -65,35 +63,21 @@ public class Tabeller {
 	// f)
 	public static int[] reverser(int[] tabell) {
 
-    int [] ny  = new int[tabell.length];
-    for (int i = 0; i < tabell.length; i++) {
-        ny[i] = tabell[tabell.lenght -1 - i];
-    }
-    return ny;
+        throw new UnsupportedOperationException("Metoden erSortert ikke implementert");
 	}
 
 	// g)
 	public static boolean erSortert(int[] tabell) {
 
-		for(int i = 0; i < tabell.length; i++) {
-            if(tabell[i]<tabell[i+1]) {
-                return true;
-            }
-        }
-        return false;
+		// TODO
+		throw new UnsupportedOperationException("Metoden erSortert ikke implementert");
 	}
 
 	// h)
 	public static int[] settSammen(int[] tabell1, int[] tabell2) {
 
-		int [] ny = new int[tabell1.length + tabell2.length];
+		// TODO
+		throw new UnsupportedOperationException("Metoden settSammen ikke implementert");
 
-        for (int i = 0; i < tabell1.length; i++) {
-            ny[i] = tabell1[i];
-        }
-        for (int i = 0; i < tabell2.length; i++) {
-            ny[i+tabell1.length] = tabell2[i];
-        }
-    return ny;
 	}
 }
