@@ -29,6 +29,8 @@ public class Matriser {
 	public static boolean erLik(int[][] a, int[][] b) {
 
 
+        // TODO
+        throw new UnsupportedOperationException("Metoden skaler ikke implementert");
 		
 	}
 
