@@ -17,6 +17,8 @@ public class Tabeller {
 		throw new UnsupportedOperationException("Metoden tilStreng ikke implementert");
 	}
 
+
+
 	// c)
 	public static int summer(int[] tabell) {
 
